@@ -106,6 +106,7 @@ main p {
     height: 70px;
     width: 65px;
     margin-top: 5px;
+    cursor: pointer; 
 }
 
 
