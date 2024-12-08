@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E2 Computer: Enteria</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div class="container">
+        <header> 
+            <h3>ENTERIA JR.</h3>
+        </header>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="autobiography.html">AUTOBIOGRAPHY</a>
+            <a href="article.html">ARTICLE</a>
+            <a href="blog.html">BLOG</a>
+            <a href="forms.html">FORM</a>
+        </nav>
+
+        <main>
+            <div class="logo">
+                <img src="media/httyd.png" alt="How To Train Your Dragon" id="icon">
+                <h2>WELCOME DRAGONRIDERS!</h2>
+            </div>
+
+            <audio id="music" controls loop hidden>
+                <source src="media/forms.mp3" type="audio/mp3">
+            </audio>
+            
+<script>
+    var music = document.getElementById("music");
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+        music.play();
+    }
+</script>
+
+            <form action="index.html" method="post">
+                <div class="login">
+                    <label for="Email"><b>Email Address</b></label><br>
+                    <input type= "email" id="Email" placeholder="Example@email.com" required><br>
+                    <label for="Dragonrider ID"><b>Dragonrider ID</b></label><br>
+                    <input type= "text" id="Dragonrider ID" placeholder="00-1234" minlength="7" maxlength="7" required><br>
+                    <label for="Password"><b>Password</b></label><br>
+                    <input type="password" id="Password" placeholder="Password" minlength="8" required>
+                </div>
+    
+                <div class="info">
+                    <label for="Full Name"><b>Full Name</b></label><br>
+                    <input type="text" id="Full Name" placeholder="Full Name" required><br>
+                    <label for="Age"><b>Age</b></label><br>
+                    <input type="number" id="Age" placeholder="Age" min="1" required><br>
+                    <label for="Birthdate"><b>Date of Birth</b></label><br>
+                    <input type="date" id="Birthdate" required>
+                </div>
+    
+                <div class="info">
+                    <label for="Releasedate"><b>In which year was How to Train Your Dragon released?</b></label><br>
+                    <select id="Releasedate">
+                        <option value="2008">2008</option>
+                        <option value="2012">2012</option>
+                        <option value="2010">2010</option>
+                    required </select>
+                </div>
+    
+                <div class="login">
+                    <label for="Question"><b>What is the name of Main Character the movie?</b></label><br>
+                    <input type="text" id="Question" placeholder="Your Answer" required><br>
+                </div>
+    
+                <div class="info">
+                    <label for="Dragon"><b>What type of dragon is toothless?</b></label><br>
+    
+                    <input type="radio" id="Flamethrower" value="Flamethrower" name="Dragon">
+                    <label for="Flamethrower">Flamethrower</label>
+                    <br>
+                    <input type="radio" id="Mudraker" value="Mudraker" name="Dragon">
+                    <label for="Mudraker">Mudraker</label>
+                    <br>
+                    <input type="radio" id="Night Fury" value="Night Fury" name="Dragon">
+                    <label for="Night Fury">Night Fury</label>
+                    <br>
+                    <input type="radio" id="Snifflehunch" value="Snifflehunch" name="Dragon">
+                    <label for="Snifflehunch">Snifflehunch</label>
+                </div>
+    
+                <div class="info">
+                    <label for="Friends"><b>Which of these characters are Hiccup's friends?</b></label><br>
+                    <input type="checkbox" id="Astrid" name="Friends">
+                    <label for="Astrid">Astrid</label><br>
+                    <input type="checkbox" id="Lustan" name="Friends">
+                    <label for="Lustan">Lustan</label><br>
+                    <input type="checkbox" id="Fishlegs" name="Friends">
+                    <label for="Fishlegs">Fishlegs</label><br>
+                    <input type="checkbox" id="Tuffnut" name="Friends">
+                    <label for="Tuffnut">Tuffnut</label>
+                </div>
+    
+                <div class="done">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <p2>
+                <b>Sorsogon College of Criminology Inc.
+                <br>
+                3928, Rizal St, Sorsogon City, Sorsogon
+                <br>
+                S.Y. 2024-2025</b>
+                <br>
+                Author: <b>Juste Rini Magbanua-Enteria</b>
+                <br>
+                Year and Section: <b>Section II-India</b>
+                <br>
+                <a href="mailto:justerinimagbanuaenteria@gmail.com">justerinimagbanuaenteria@gmail.com</a>
+            </p2>
+        </footer>
+    </div>   
+    
+</body>
+</html>

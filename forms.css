@@ -1,0 +1,189 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color:#F3F3E0;
+    background-image: url(media/berk.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width:100vw;
+    height:100vh;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    padding-left: 220px;
+    padding-right: 220px;
+    height: 100px;
+    text-align: center;
+}
+
+header h3 {
+    font-size: 70px;
+    color: #072142;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    background-color:#cbdcebd3;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+}
+
+nav a {
+    color:#133E87;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+nav a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+ 
+nav a:hover {
+    color:#608BC1;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ 
+nav a:active {
+    color:white;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+main {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    background-color:#9197ff93;
+    border-radius: 5px;
+}
+
+.logo {
+    align-items: center;
+    text-align: center;
+}
+
+.logo h2 {
+    font-size: 30px;
+    color:white;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 0;
+    margin-left: 0;
+}
+
+.logo img {
+    height: 200px;
+    width: 500px;
+    cursor: pointer;
+}
+
+form {
+    font-size: 16px;
+    line-height: 20px;
+    color: #041562;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.login {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: #F3F3E0;
+}
+
+.done {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.done button {
+    background-color: #F3F3E0;
+    color:#041562;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:15px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 0;
+}
+
+footer {
+    background-color: #cbdcebd3;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: #133E87;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color:#133E87;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+footer a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+ 
+footer a:hover {
+    color:#608BC1;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ 
+footer a:active {
+    color:white;
+    background-color: transparent;
+    text-decoration: underline;
+}
